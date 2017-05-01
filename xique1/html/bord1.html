@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>1表单顾客维度</title>
+    <link rel="stylesheet" href="../css/bord1.css"/>
+    <style>
+        h2 a{
+            color: #5DB0E6;
+            text-shadow: 0 0 10px #5DB0E6;
+        }
+        .holder {
+            margin: 55px 0;
+            text-align:center;
+        }
+        .holder a {
+            font-size: 14px;
+            cursor: pointer;
+            margin: 0 5px;
+            color: #505050;
+        }
+        .holder a:hover {
+            background-color: #222;
+            color: #fff;
+        }
+        .holder a.jp-previous { margin-right: 15px; }
+        .holder a.jp-next { margin-left: 15px; }
+        .holder a.jp-current, a.jp-current:hover {
+            color: #5DB0E6;
+            font-weight: bold;
+            text-shadow: 1px 1px #505050;
+        }
+        .holder a.jp-disabled, a.jp-disabled:hover {
+            color: #bbb;
+        }
+        .holder a.jp-current, a.jp-current:hover,
+        .holder a.jp-disabled, a.jp-disabled:hover {
+            cursor: default;
+            background: none;
+        }
+        .holder span { margin: 0 5px; }
+        /*li{*/
+            /*color:red;*/
+            /*border:1px solid #000000;*/
+            /*height:200px;*/
+        /*}*/
+        /*ul{*/
+            /*width:100px;*/
+            /*height:400px;*/
+            /*overflow: hidden;*/
+        /*}*/
+        /*div.holder a{*/
+            /*display:inline-block;*/
+            /*width:60px;*/
+            /*height:20px;*/
+            /*border:1px solid #000000;*/
+        /*}*/
+
+    </style>
+
+</head>
+<body>
+<!--头部公用部分-->
+<div id="header">
+
+</div>
+
+<div id="article">
+    <!--左侧导航-->
+    <div id="affix">
+
+    </div>
+
+    <div id="section">
+        <!--当前位置-->
+        <div class="section_nav"></div>
+
+        <div class="section_show_all">
+            <div class="section_show1">
+                <!--蒙版层-->
+                <div class=" section_show1_add">
+                    <div>
+                        <div>
+                            <p>新增分类管理</p>
+                            <div><lable>分类名称:</lable><input name="uname" type="text"/></div>
+                            <div><lable>排序值:</lable><input name="number" type="text"/></div>
+                            <p>0/200字</p>
+                            <div><a href="javascript:void(0)">确认</a><a href="javascript:void(0)">取消</a></div>
+                            </div>
+                            <a href="javascript:void(0)" class="section_show1_add_bunce_minus"><img src="../img/bounce_minus.png"/></a>
+                        </div>
+                </div>
+                <div class="section_show1_operation">
+                    <div>
+                        <ul>
+                            <li><img src="../img/add1.png"/>添加</li>
+                            <li><img src="../img/minus1.png"/>禁用</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="section_show1_table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>分类名称</th>
+                                <th>排序值</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody  id="itemContainer">
+                            <tr>
+                                <td>活动</td>
+                                <td>120</td>
+                                <td><img src="../img/clock.png" /> <span>禁用</span></td>
+                            </tr>
+                            <tr>
+                                <td>活动</td>
+                                <td>120</td>
+                                <td><img src="../img/clock.png" /> <span>禁用</span></td>
+                            </tr>
+                            <tr>
+                                <td>活动</td>
+                                <td>120</td>
+                                <td><img src="../img/clock.png" /> <span>禁用</span></td>
+                            </tr>
+                            <tr>
+                                <td>活动</td>
+                                <td>120</td>
+                                <td><img src="../img/clock.png" /> <span>禁用</span></td>
+                            </tr>
+                            <tr>
+                                <td>活动</td>
+                                <td>120</td>
+                                <td><img src="../img/clock.png" /> <span>禁用</span></td>
+                            </tr>
+                            <tr>
+                                <td>活动</td>
+                                <td>120</td>
+                                <td><img src="../img/clock.png" /> <span>禁用</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="holder"></div>
+        <div style="margin: 15px 2px;">
+            <span id="page-panel"></span>
+            <span id="page-pane2"></span>
+            <span id="page-pane3"></span>
+            <span id="page-pane4"></span>
+        </div>
+    </div>
+</div>
+<!--<script src="../js/jquery.js"></script>-->
+<!--<script type="text/javascript" src="http://sandbox.runjs.cn/uploads/rs/300/f544pn8s/jPages.js"></script>-->
+<!--<script src="../js/bord1.js"></script>-->
+<script src="../js/require.js" data-main="../js/bord1"></script>
+<script>
+    /* when document is ready */
+
+</script>
+</body>
+</html>

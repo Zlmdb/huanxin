@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */
+  font-size: 20px;
+  width: 100%;
+}
+body,
+input,
+textarea,
+select,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+table,
+th.td,
+tr,
+a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  resize: none;
+}
+body {
+  width: 100%;
+  font-size: 0.7rem;
+}
+input,
+textarea,
+select {
+  border: 0;
+}
+a:active,
+a:hover {
+  outline-width: 0;
+}
+.clear {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.lf {
+  float: left;
+}
+.rt {
+  float: right;
+}
+.border {
+  border: 1px solid #000;
+}
+#header {
+  width: 100%;
+  height: 3.6rem;
+  color: #fff;
+  background-color: #383c3c;
+}
+#header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+#header div.header-float_lf {
+  font-size: 0.8rem;
+  width: 60%;
+  float: left;
+  height: 3.6rem;
+}
+#header div.header-float_lf ul {
+  height: 3.6rem;
+  overflow: hidden;
+}
+#header div.header-float_lf ul:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+#header div.header-float_lf ul li {
+  float: left;
+  margin-left: 2.8%;
+  line-height: 3.6rem;
+}
+#header div.header-float_rt {
+  font-size: 0.7rem;
+  float: right;
+  width: 20%;
+  height: 3.6rem;
+}
+#header div.header-float_rt ul {
+  height: 3.6rem;
+}
+#header div.header-float_rt ul:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+#header div.header-float_rt ul li {
+  float: left;
+  margin-left: 1.4%;
+  line-height: 3.6rem;
+}
+#header div.header-float_rt ul li:nth-child(3) {
+  margin-left: 3.5%;
+}
+#article {
+  background-color: #F5F5F5;
+}
+#article:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+#article #affix {
+  background-color: #fff;
+  width: 9.9%;
+  min-height: 800px;
+  float: left;
+}
+#article #affix div ul {
+  margin-left: 11.2%;
+}
+#article #affix div ul li {
+  margin-top: 2rem;
+  color: #333;
+}
+#article #affix div ul li a {
+  display: inline-block;
+  width: 0.8rem;
+  margin-right: 0.4rem;
+}
+#article #affix div ul li a img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+#article #section {
+  background-color: #F5F5F5;
+  float: left;
+  width: 83.19%;
+  margin-left: 3.47%;
+  min-height: 800px;
+  border: 1px solid #000;
+}
+#article #section .section_nav {
+  width: 100%;
+  height: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#article #section .section_nav ul li {
+  float: left;
+  margin-left: 0.5rem;
+}
+#article #section .section_nav ul li:first-child {
+  margin-left: 0;
+}
